@@ -1,0 +1,56 @@
+body {
+    background-image: url(matheux.png);
+}
+
+.real-container {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 210px;
+    height: 310px;
+}
+
+.container {
+    position: absolute;
+    top: 24%;
+    left: 43%;
+    background-color: rgb(216, 206, 206);
+}
+
+.show-result {
+    position: absolute;
+    left: 2%;
+}
+
+.all-keys {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+
+.display-result {
+    width: 158px;
+    height: 2.5rem;
+    padding: 0 1.25rem;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 0.625rem auto;
+    transition: all 250ms;
+}
+
+.key1 {
+    width: 50px;
+}
+
+.key2 {
+    width: 50px;
+}
+
+.keys {
+    width: 50px;
+    height: 42px;
+}
+
+.bastard {
+    position: absolute;
+    left: 75%;
+    top: 67%;
+}
